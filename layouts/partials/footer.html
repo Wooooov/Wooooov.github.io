@@ -1,0 +1,44 @@
+<footer class="footer">
+<!-- {{ if not .IsSection }}
+<script src="https://utteranc.es/client.js"
+        repo="hongtaoh/hongtaoh.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+{{ end }} -->
+
+  {{ partial "foot_custom.html" . }}
+     <ul class="footer-links">
+      
+       <li>
+        <a href="https://gohugo.io/" class="footer-links-kudos" target="_blank">Made with <img src="/media/hugo-logo.png" width="22" height="22"></a>
+       </li>
+       <li>
+        <a href=https://github.com/ class=footer-links-kudos target=_blank>
+        Content in
+        <i class="fa fa-github" style=font-size:24px></i>
+        </a>
+        </li>
+       
+       {{ with .Site.Params.GithubRepo}}
+       <li>
+        <a href='{{ . }}' class="footer-links-kudos" target="_blank"> 
+          {{ default (index $.Site.Params.Lang.sourceCode $.Site.Params.defaultLang) (index $.Site.Params.lang.sourceCode $.Section) }} 
+          <i class="fa fa-github" style="font-size: 24px"></i>
+        </a>
+       </li>
+       {{ end }}
+     
+     </ul>
+     <div class="copyright-text">
+      ©
+      Sandy
+      2023-2023
+     </div>
+
+</footer>
+
+
+
