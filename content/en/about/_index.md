@@ -27,7 +27,7 @@ My CV will be uploaded soon.
 
 ---
 
-## Some meaningful events in my recent years
+## Some meaningful events in my life
 #### The 1st thing
 In my high school, I was always one of the worst performers in PE class, especially in the 800-meter run test. During my freshman year of college, I wanted to do something I want to do something to adjust my state, so I began to run regularly. My initial goal was to run just 4 or 5 laps, but as I continued running, I found more joy in it. By the end of my freshman year, I was able to run over 20 laps. 
 
@@ -60,11 +60,11 @@ I finally made my person website!
 
 ---
 
-## Some components of myself
+## Some components of me
 - Since I was young, I have had a great interest in art. I have learned to play the guitar and erhu, and I am also interested in design, such as web design, logo design, charts design and so on. 
 - My biggest hobby is drawing. Although I haven't received professional training in painting, I usually self-study through copying and tutorials. I have tried using pencils, watercolors, and panel painting techniques.
 
-{{<figure src="/images/sandy.jpg" title="This painting was drawed by myself using my iPad" width="300">}}
+{{<figure src="/images/sandy.jpg" title="This painting was created by myself using Procreate on iPad" width="300">}}
 
 - I am a dog person and I am extremely grateful to meet my dogs, wishing they can always be by my side.
 
