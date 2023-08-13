@@ -19,7 +19,7 @@ tags:
 
 ---
 
-## Some notes 
+## **Some notes** 
 ### what the audience want to gain from a talk:
 - contain enough background 
 - not hard to understand: the audience are able to see the data, understand it and interpret it
