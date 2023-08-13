@@ -8,27 +8,29 @@ tags:
   - article
 ---
 
- This is the video record of a lecture by Professor Susan McConnell from the Department of Biology at Stanford University. The lecture's topic is: *Design effective secientific presentations: using PowerPoint and structuring your talk*.
+ This is a video record of one lecture by Professor Susan McConnell from the Department of Biology at Stanford University. The lecture's topic is: *Design effective secientific presentations: using PowerPoint and structuring your talk*.
  This lecture helped me a lot and I gained many useful suggestions from it.
 
 ---
 ## This video is from bilibili
-<iframe src="//player.bilibili.com/player.html?aid=805646984&bvid=BV1N34y1D7vX&cid=415023650&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+{{< bilibili 415023650 >}}
+
 ---
 
 ## Some notes 
-### what the audience want to gain from a talk:
--contain enough background 
--not hard to understand: the audience are able to see the data, understand it and interpret it
+#### what the audience want to gain from a talk:
+- contain enough background 
+- not hard to understand: the audience are able to see the data, understand it and interpret it
 
-### A ideal PPT 
+#### A ideal PPT 
    a perfect slide contains:
    - a simple statemnet at the top
    - a simple visual 
    - what you as a speaker are saying
    the three parts help make a same content be delivered through three channels at the same time
 
-### specific suggesstion of PPT basics:
+#### Specific suggesstion of PPT basics:
 - what front to use: 
   - a Sans Serif font.
   - type size: better in 18-36 point, 14 point for the reference part.
@@ -45,7 +47,7 @@ tags:
   - avoid fancy transitions between slides (if it will help you to deliver your content, it may make sence)
   - don't drown the audience with data
 
-### simple rule
+#### Simple rule
   - "If you're not going to take the time to explain it, get rid of it"
   - less is more, just get feedback from practice and colleagues to make sure you are not overwhelming people with too much contents
 
