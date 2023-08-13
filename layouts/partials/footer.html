@@ -1,6 +1,5 @@
 <footer class="footer">
-{{ if not .IsSection }}
-{{ if not .IsHome }}
+{{ if and (not .IsSection) (not .IsHome) }}
 <script src="https://utteranc.es/client.js"
         repo="Wooooov/Wooooov.github.io"
         issue-term="pathname"
@@ -8,7 +7,6 @@
         crossorigin="anonymous"
         async>
 </script>
-{{ end }}
 {{ end }}
 
   {{ partial "foot_custom.html" . }}
@@ -18,7 +16,7 @@
         <a href="https://gohugo.io/" class="footer-links-kudos" target="_blank">Made with <img src="/media/hugo-logo.png" width="22" height="22"></a>
        </li>
        <li>
-        <a href=https://github.com/ class=footer-links-kudos target=_blank>
+        <a href=https://github.com/Wooooov class=footer-links-kudos target=_blank>
         Content in
         <i class="fa fa-github" style=font-size:24px></i>
         </a>
