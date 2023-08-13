@@ -5,18 +5,18 @@ author: 余忻萌
 ---
 
 ### 搭建过程
-step 1. 首先：
+***Step 1.*** 首先：
 要有github账号，有文本编辑器，安装git，安装hugo，知道一些markdown语法
 - [安装hugo](https://github.com/gohugoio/hugo/releases)
  需要配置系统路径
 
-step 2. 新建hugo网站
+Step 2. 新建hugo网站
 hugo博客是一个文件夹，找一个位置用终端新建一个hugo文件：
 ```
 hugo new site mywebsite
 ```
 
-step 3. 选一个hugo网站主题
+Step 3. 选一个hugo网站主题
 - [hugo主题](https://themes.gohugo.io/)
 放进新建的mywebsite/themes中之后，可以用：
 ```
@@ -24,10 +24,10 @@ hugo server -D # 这里的 D 是 draft 的意思
 ```
 在 http://localhost:1313/ 上进行预览，Ctrl+C停止预览。
 
-step 4. 新建一个github仓库
+Step 4. 新建一个github仓库
 命名成  Github用户名 xxx.github.io (public)
 
-step 5. 密钥设置
+Step 5. 密钥设置
 - 首先,在mywebsite根目录下终端输入：
 ```
 mkdir .github
@@ -44,22 +44,22 @@ start ~/.ssh
 ```
 会得到两个新增的文件：gh-pages 和 gh-pages.pub
 
-- 然后，
- - github新建的库里：Settings -> Deploy keys ->Add deploy key，
+- 然后，进行以下三个操作：
+  - github新建的库里：Settings -> Deploy keys ->Add deploy key，
 同时终端输入：
 ```
 clip < ~/.ssh/gh-pages.pub # 复制里面的deploy key
 ```
 粘贴到库的key value里，Add key。
 
- - github新建的库里：Settings -> -> Actions ->New repository secret，
+  - github新建的库里：Settings -> -> Actions ->New repository secret，
 再终端输入：
 ```
 clip < ~/.ssh/gh-pages # 复制里面的secret
 ```
 粘贴到库的secret value,Name填ACTIONS_DEPLOY_KEY，Add secret。
 
- - 打开[这里](https://github.com/settings/tokens)设置github的个人token，点击Generate new token (Classic)，选中workflow，然后generate token并复制。
+  - 打开[这里](https://github.com/settings/tokens)设置github的个人token，点击Generate new token (Classic)，选中workflow，然后generate token并复制。
 github新建的库里：Settings -> Security -> Secrets -> Actions -> New repository secret，粘贴到value框，Name填PERSONAL_TOKEN，Add secret。
 
 step 6. 添加workflow
@@ -178,4 +178,4 @@ $ cd /C/User/Admin
 ---
 - 整了好几天，经历了 「看起来好简单的样子」 -> 「卡在了开头」 -> 「放弃」 -> 「再试一次」 -> 「再试N次」 
 - 只想告诉自己经验少、知识不足不该是借口，always on the road to learning.
-总之，深刻感受编程知识不是看来的而是自己试出来的，再详细的教程实操起来都困难重重，看起来再无脑的坑实际操作时还是会踩到，多学多练别放弃。
+- 总之，深刻感受编程知识不是看来的而是自己试出来的，再详细的教程实操起来都困难重重，看起来再无脑的坑实际操作时还是会踩到，多学多练别放弃。
