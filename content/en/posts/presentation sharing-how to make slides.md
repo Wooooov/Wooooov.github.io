@@ -29,7 +29,8 @@ tags:
    - a simple statemnet at the top
    - a simple visual 
    - what you as a speaker are saying
-   the three parts help make a same content be delivered through three channels at the same time
+   
+  the three parts help make a same content be delivered through three channels at the same time
 
 ### Specific suggesstion of PPT basics:
 - what front to use: 
