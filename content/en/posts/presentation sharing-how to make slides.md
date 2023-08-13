@@ -8,7 +8,9 @@ tags:
   - article
 ---
 
- This is a video record of one lecture by Professor Susan McConnell from the Department of Biology at Stanford University. The lecture's topic is: *Design effective secientific presentations: using PowerPoint and structuring your talk*.
+ This is a video record of one lecture by Professor Susan McConnell from the Department of Biology at Stanford University.
+ 
+ The lecture's topic is: *Design effective secientific presentations: using PowerPoint and structuring your talk*.
 
  This lecture really helped me a lot and I gained many useful suggestions from it.
 
