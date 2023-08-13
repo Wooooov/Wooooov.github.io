@@ -6,14 +6,14 @@
 <script src=https://cdn.jsdelivr.net/npm/vega-lite@4.17.0></script>
 <script src=https://cdn.jsdelivr.net/npm/vega-embed@6.12.2></script>
 <script>hljs.initHighlightingOnLoad()</script></head><body><div class=wrapper><header class=header><nav class=nav><a href=/ class=nav-logo><img src=/media/dog-logo.jpg width=50 height=50 alt=Hugo-ht></a><ul class=nav-links><ul class=nav-links><li><a href=/>Home</a></li><li><a href=/en/about/>About me</a></li><li><a href=/en/posts/>English</a></li><li><a href=/cn/posts/>Chinese</a></li></ul></ul></nav></header><main class=content role=main><div style=text-align:center><h1>[博客搭建] 用Hugo搭建个人网站</h1><p>余忻萌
-/ 2023-08-12</p><hr></div><span class=article-toolbar></span><div class="body-text list-text"><h3 id=搭建过程>搭建过程<a href=#搭建过程 class=header-anchor arialabel=Anchor> #</a></h3><p>1.首先：
+/ 2023-08-12</p><hr></div><span class=article-toolbar></span><div class="body-text list-text"><h3 id=搭建过程>搭建过程<a href=#搭建过程 class=header-anchor arialabel=Anchor> #</a></h3><p>step 1. 首先：
 要有github账号，有文本编辑器，安装git，安装hugo，知道一些markdown语法</p><ul><li><a href=https://github.com/gohugoio/hugo/releases target=_blank rel="noreferrer noopener">安装hugo</a>
-需要配置系统路径</li></ul><p>2.新建hugo网站
+需要配置系统路径</li></ul><p>step 2. 新建hugo网站
 hugo博客是一个文件夹，找一个位置用终端新建一个hugo文件：</p><pre tabindex=0><code>hugo new site mywebsite
-</code></pre><p>3.选一个hugo网站主题</p><ul><li><a href=https://themes.gohugo.io/ target=_blank rel="noreferrer noopener">hugo主题</a>
+</code></pre><p>step 3. 选一个hugo网站主题</p><ul><li><a href=https://themes.gohugo.io/ target=_blank rel="noreferrer noopener">hugo主题</a>
 放进新建的mywebsite/themes中之后，可以用：</li></ul><pre tabindex=0><code>hugo server -D # 这里的 D 是 draft 的意思
-</code></pre><p>在 http://localhost:1313/ 上进行预览，Ctrl+C停止预览。</p><p>4.新建一个github仓库
-命名成 Github用户名 xxx.github.io (public)</p><p>5.密钥设置</p><ul><li>首先,在mywebsite根目录下终端输入：</li></ul><pre tabindex=0><code>mkdir .github
+</code></pre><p>在 http://localhost:1313/ 上进行预览，Ctrl+C停止预览。</p><p>step 4. 新建一个github仓库
+命名成 Github用户名 xxx.github.io (public)</p><p>step 5. 密钥设置</p><ul><li>首先,在mywebsite根目录下终端输入：</li></ul><pre tabindex=0><code>mkdir .github
 mkdir .github/workflows
 touch .github/workflows/gh-pages.yml
 </code></pre><ul><li>其次，在git bash 中输入：</li></ul><pre tabindex=0><code>cd /C/Users/电脑用户名
@@ -27,7 +27,7 @@ start ~/.ssh
 再终端输入：</li></ul><pre tabindex=0><code>clip &lt; ~/.ssh/gh-pages # 复制里面的secret
 </code></pre><p>粘贴到库的secret value,Name填ACTIONS_DEPLOY_KEY，Add secret。</p><ul><li>打开<a href=https://github.com/settings/tokens target=_blank rel="noreferrer noopener">这里</a>
 设置github的个人token，点击Generate new token (Classic)，选中workflow，然后generate token并复制。
-github新建的库里：Settings -> Security -> Secrets -> Actions -> New repository secret，粘贴到value框，Name填PERSONAL_TOKEN，Add secret。</li></ul><p>6.添加workflow
+github新建的库里：Settings -> Security -> Secrets -> Actions -> New repository secret，粘贴到value框，Name填PERSONAL_TOKEN，Add secret。</li></ul><p>step 6. 添加workflow
 终端输入：</p><pre tabindex=0><code>notepad .github/workflows/gh-pages.yml
 </code></pre><p>粘贴以下文本：</p><pre tabindex=0><code>name: github pages
 
@@ -60,31 +60,30 @@ jobs:
           github_token: ${{ secrets.PERSONAL_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./public
-</code></pre><p>7.上传github</p><pre tabindex=0><code>git init
+</code></pre><p>step 7. 上传github</p><pre tabindex=0><code>git init
 git add .
 git commit -m &#34;first commit.&#34;
 git remote add origin https://github.com/github用户名/github用户名.github.io.git
 git push -u origin master
 </code></pre><p>在github新建的库里：Settings -> Pages,在 Source 那里，Branch 选择 gh-pages, 右侧的框框选择 root，然后点 Save。得等一会：</p><pre tabindex=0><code>Your site is published at https://github用户名.github.io/
-</code></pre><p>8.后续更新
+</code></pre><p>step 8. 后续更新
 直接更改本地hugo文件就行，改了之后上传到github：</p><pre tabindex=0><code>git add .
 msg=&#34;updating site on $(date)&#34; 
 git commit -m &#34;$msg&#34;
 git push origin master
 </code></pre><p>把上面四行打包放到一个update.sh文件里，放在hugo文件夹的根目录下，下次更新的时候直接运行：</p><pre tabindex=0><code>bash update.sh
-</code></pre><h3 id=过程中遇到的问题>过程中遇到的问题<a href=#过程中遇到的问题 class=header-anchor arialabel=Anchor> #</a></h3><p>1.国内github经常出现连不上的问题，进行git更新的时候一半时间都会出错，使用VPN浏览github倒是可以，用git向库里更新时还是经常会出错，类似于：</p><pre tabindex=0><code>Fatal: fatal: unable to access &#39;https://github.com/xxx&#39;: OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
+</code></pre><h3 id=过程中遇到的问题>过程中遇到的问题<a href=#过程中遇到的问题 class=header-anchor arialabel=Anchor> #</a></h3><ol><li>国内github经常出现连不上的问题，进行git更新的时候一半时间都会出错，使用VPN浏览github倒是可以，用git向库里更新时还是经常会出错，类似于：</li></ol><pre tabindex=0><code>Fatal: fatal: unable to access &#39;https://github.com/xxx&#39;: OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
 </code></pre><p>搜到的解决办法，输入：</p><pre tabindex=0><code>git config --global --unset-all remote.origin.proxy
 </code></pre><p>来消除behind a proxy的影响。
-实际来说对我并不管用，只能多传几次直到更新成功</p><p>2.可能是github经常连接出问题的缘故，在最后步骤 Branch 里选择的时候，一开始怎么都没有gh-pages分支，一直都以为是之前的步骤没做好，出了问题，重新来过了很多次，之后用的同样的流程，等个几分钟之后发现就有了。后面在git更新频繁出问题后，回想下这里或许也是由于大陆github连接不稳的缘故。</p><p>3.在网站中增加图片的方法：
-在根目录的static文件夹下新建一个用于存图片的文件夹，例如images，之后再加入图片的话就可以在帖子中这样加：</p><pre tabindex=0><code>{figure src= &#34;/images/picture.jpg&#34; title = &#34;blablabla&#34; caption = &#34;blablabla&#34; width = &#34;xxx&#34;}
-</code></pre><h3 id=个人的一些奇奇怪怪的问题>个人的一些奇奇怪怪的问题<a href=#个人的一些奇奇怪怪的问题 class=header-anchor arialabel=Anchor> #</a></h3><p>1.用git bash终端更新的时候，进入hugo网站文件是直接复制路径的，这样的路径类似于</p><pre tabindex=0><code>$ cd C:\Users\my_website
+实际来说对我并不管用，只能多传几次直到更新成功</p><ol start=2><li><p>可能是github经常连接出问题的缘故，在最后步骤 Branch 里选择的时候，一开始怎么都没有gh-pages分支，一直都以为是之前的步骤没做好，出了问题，重新来过了很多次，之后用的同样的流程，等个几分钟之后发现就有了。后面在git更新频繁出问题后，回想下这里或许也是由于大陆github连接不稳的缘故。</p></li><li><p>在网站中增加图片的方法：
+在根目录的static文件夹下新建一个用于存图片的文件夹，例如images，之后再加入图片的话就可以在帖子中这样加：</p></li></ol><pre tabindex=0><code>{figure src= &#34;/images/picture.jpg&#34; title = &#34;blablabla&#34; caption = &#34;blablabla&#34; width = &#34;xxx&#34;}
+</code></pre><h3 id=个人的一些奇奇怪怪的问题>个人的一些奇奇怪怪的问题<a href=#个人的一些奇奇怪怪的问题 class=header-anchor arialabel=Anchor> #</a></h3><ol><li>用git bash终端更新的时候，进入hugo网站文件是直接复制路径的，这样的路径类似于</li></ol><pre tabindex=0><code>$ cd C:\Users\my_website
 </code></pre><p>就会得到“No such file or directory”的反应，要改成：</p><pre tabindex=0><code>$ cd /c/user/my_website
-</code></pre><p>2.按教程设置SSH Deploy Key的时候生成的gh-pages 和 gh-pages.pub文件在.ssh下怎么都找不到，最后发现是保存在了/C/User/Admin文件夹下，事实上配置用的代码里就是这么写的：</p><pre tabindex=0><code>$ cd /C/User/Admin
-</code></pre><p>3.更新主页图片的时候怎么都显示不出来，一度以为是自己的src路径写错了，没怎么写过html语言，找了好多上传图片的方法，结果发现是自己把</p><pre tabindex=0><code>&lt;figure src=&#34;/images/sandy.jpg&#34; title=&#34;I am swimming in the ocean of knowledge.&#34; width=&#34;300&#34;&gt;
+</code></pre><ol start=2><li>按教程设置SSH Deploy Key的时候生成的gh-pages 和 gh-pages.pub文件在.ssh下怎么都找不到，最后发现是保存在了/C/User/Admin文件夹下，事实上配置用的代码里就是这么写的：</li></ol><pre tabindex=0><code>$ cd /C/User/Admin
+</code></pre><ol start=3><li>更新主页图片的时候怎么都显示不出来，一度以为是自己的src路径写错了，没怎么写过html语言，找了好多上传图片的方法，结果发现是自己把</li></ol><pre tabindex=0><code>&lt;figure src=&#34;/images/sandy.jpg&#34; title=&#34;I am swimming in the ocean of knowledge.&#34; width=&#34;300&#34;&gt;
 </code></pre><p>写成了：</p><pre tabindex=0><code>&lt;figure src=&#34;\images\sandy.jpg&#34; title=&#34;I am swimming in the ocean of knowledge.&#34; width=&#34;300&#34;&gt;
-</code></pre><p>耽误了好久，发现的时候简直无语死了 =.= ，以前也有过把main()写成mian(),该长记性!</p><hr><p>整了好几天，经历了 「看起来好简单的样子」 -> 「卡在了开头」 -> 「放弃」 -> 「再试一次」 -> 「再试N次」
-只想告诉自己经验少、知识不足不该是借口，always on the road to learning.
-总之，深刻感受编程知识不是看来的而是自己试出来的，再详细的教程实操起来都困难重重，看起来再无脑的坑实际操作时还是会踩到，多学多练别放弃。</p><p style=color:#777>最后更新于： 2023-08-12</p></div><a href=#top><i class="fa fa-chevron-up" style=font-size:30px;color:#000></i></a><div>☝ 返回顶部</div></main><footer class=footer><script type=text/javascript src=/js/math-code.js></script>
+</code></pre><p>耽误了好久，发现的时候简直无语死了 =.= ，以前也有过把main()写成mian(),该长记性!</p><hr><hr><ul><li>整了好几天，经历了 「看起来好简单的样子」 -> 「卡在了开头」 -> 「放弃」 -> 「再试一次」 -> 「再试N次」</li><li>只想告诉自己经验少、知识不足不该是借口，always on the road to learning.
+总之，深刻感受编程知识不是看来的而是自己试出来的，再详细的教程实操起来都困难重重，看起来再无脑的坑实际操作时还是会踩到，多学多练别放弃。</li></ul><p style=color:#777>最后更新于： 2023-08-12</p></div><a href=#top><i class="fa fa-chevron-up" style=font-size:30px;color:#000></i></a><div>☝ 返回顶部</div></main><footer class=footer><script type=text/javascript src=/js/math-code.js></script>
 <script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 <script type=text/javascript src=/js/center-img.js></script><ul class=footer-links><li><a href=https://gohugo.io/ class=footer-links-kudos target=_blank>Made with <img src=/media/hugo-logo.png width=22 height=22></a></li><li><a href=https://github.com/ class=footer-links-kudos target=_blank>Content in
 <i class="fa fa-github" style=font-size:24px></i></a></li></ul><div class=copyright-text>©
