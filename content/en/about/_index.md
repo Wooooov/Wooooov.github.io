@@ -6,7 +6,7 @@ type : list-single
 ---
 ---
 
-## Personal information
+## **Personal information**
 
 ***Phone***: 18075322078
 
@@ -18,13 +18,13 @@ type : list-single
 
 ---
 
-## Education Experience
+## **Education Experience**
 - 2021 - today (Master), Hangzhou Normal Unniversity, major in Computer Appliance and Technology
 - 2016 - 2020 (Bachelor), Anhui University of Chinese Medicine, major in Information Management and Information System
 
 ---
 
-## Some meaningful events in my life
+## **Some meaningful events in my life**
 #### The 1st thing
 In my high school, I was always one of the worst performers in PE class, especially in the 800-meter run test. During my freshman year of college, I wanted to do something I want to do something to adjust my state, so I began to run regularly. My initial goal was to run just 4 or 5 laps, but as I continued running, I found more joy in it. By the end of my freshman year, I was able to run over 20 laps. 
 
@@ -54,7 +54,7 @@ This year, I even proactively signed up for an academic presentation competition
 
 ---
 
-## Some components of me
+## **Some components of me**
 - Since I was young, I have had a great interest in art. I have learned to play the guitar and erhu, and I am also interested in design, such as web design, logo design, charts design and so on. 
 - My biggest hobby is drawing. Although I haven't received professional training in painting, I usually self-study through copying and tutorials. I have tried using pencils, watercolors, and panel painting techniques.
 

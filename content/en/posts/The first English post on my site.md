@@ -1,5 +1,5 @@
 ---
-title: "The first English post on my site"
+title: "The beginning of my personal website"
 date: 2023-08-11
 author: Sandy
 slug: road-not-taken
