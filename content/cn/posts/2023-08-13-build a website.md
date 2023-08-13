@@ -51,22 +51,20 @@ start ~/.ssh
 ```
 会得到两个新增的文件：gh-pages 和 gh-pages.pub
 
-- 然后，进行以下三个操作：
-  - github新建的库里：Settings -> Deploy keys ->Add deploy key，
+- 然后，在github新建的库里：Settings -> Deploy keys ->Add deploy key，
 同时终端输入：
 ```
 clip < ~/.ssh/gh-pages.pub # 复制里面的deploy key
 ```
 粘贴到库的key value里，Add key。
 
-  - github新建的库里：Settings -> -> Actions ->New repository secret，
-再终端输入：
+- 再在 github新建的库里：Settings -> -> Actions ->New repository secret，同时终端输入：
 ```
 clip < ~/.ssh/gh-pages # 复制里面的secret
 ```
 粘贴到库的secret value,Name填ACTIONS_DEPLOY_KEY，Add secret。
 
-  - 打开[这里](https://github.com/settings/tokens)设置github的个人token，点击Generate new token (Classic)，选中workflow，然后generate token并复制。
+- 之后打开[这里](https://github.com/settings/tokens)设置github的个人token，点击Generate new token (Classic)，选中workflow，然后generate token并复制。
 github新建的库里：Settings -> Security -> Secrets -> Actions -> New repository secret，粘贴到value框，Name填PERSONAL_TOKEN，Add secret。
 
 ***Step 6.*** 添加workflow
@@ -109,7 +107,7 @@ jobs:
           publish_dir: ./public
 ```
 
-***Step 7.*** 上传github
+***Step 7.*** 上传到github
 ```
 git init
 git add .
@@ -122,7 +120,7 @@ git push -u origin master
 Your site is published at https://github用户名.github.io/
 ```
 
-step 8. 后续更新
+***Step 8.*** 后续更新
 直接更改本地hugo文件就行，改了之后上传到github：
 ```
 git add .
