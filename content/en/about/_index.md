@@ -34,7 +34,7 @@ In my high school, I was always one of the worst performers in PE class, especia
 
 During the relatively leisurely two years of college, I ran roughly 5 kms every day, sometimes even two times of 5-kms running in morning and evening. I never imagined that I went from not being able to complete an 800-meter run to being able to run over 10 kms in just two years. 
 
-This achievement always encourages me that there is no difficulty I cannot overcome. Currently, I still maintain this habit, although the frequency may be lower at times.
+This achievement always encourages me that there is no difficulty I cannot overcome. Currently, I still keep this habit, although the frequency may be lower.
 
 #### The 2nd thing
 During my preparation for the postgraduate entrance examination, in order to be admitted to my desired graduate school, I decided to take the Programming Ability Test (PAT). At that time, my programming skills were very weak, and the knowledge I learned in the basic programming course during my undergraduate studies was mostly theoretical. I only had a superficial understanding of some data structures and algorithm theory. After studying hard for a while, I took an offline exam. I still remember on that day, the sound of people around me typing on the keyboard proficiently in the exam room struck a blow to my self-esteem, and I performed poorly in the exam.
