@@ -8,15 +8,15 @@ type : list-single
 
 ## **Personal information**
 
+***Born*** : 1998-12-03
+
+***Hometown*** : Anqing,Anhui,China
+
 ***Phone***: 18075322078
 
 ***Email***: yxm981203@163.com
 
-***Born*** : Dec.03,1998
-
-***Hometown*** : Anqing,Anhui,China
-
-[***CV***]()
+[***CV***]()         
 
 [***Personal statement***](https://wooooov.github.io/files/PersonalStatement.pdf) 
 

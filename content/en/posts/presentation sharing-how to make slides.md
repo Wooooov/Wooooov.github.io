@@ -1,12 +1,10 @@
 ---
-title: "lecture sharing: design effective secientific presentations"
+title: "Lecture sharing: Design effective secientific presentations"
 date: 2023-08-13
 author: Sandy
 tags:
   - article
 ---
-
-
 
 ## 视频
 
