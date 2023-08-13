@@ -5,7 +5,7 @@ author: Sandy
 type : list-single
 ---
 {{<block class="note">}}
-The following content came from the [Compact Academic CV](https://www.latextemplates.com/template/compact-academic-cv) by [Dario Taraborelli](https://github.com/dartar).
+CV will be uploaded soon.
 {{<end>}}
 
 ## Personal information
