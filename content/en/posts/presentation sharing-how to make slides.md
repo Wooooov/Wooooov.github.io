@@ -21,7 +21,14 @@ tags:
 -contain enough background 
 -not hard to understand: the audience are able to see the data, understand it and interpret it
 
-### PPT basics:
+### A ideal PPT 
+   a perfect slide contains:
+   - a simple statemnet at the top
+   - a simple visual 
+   - what you as a speaker are saying
+   the three parts help make a same content be delivered through three channels at the same time
+
+### specific suggesstion of PPT basics:
 - what front to use: 
   - a Sans Serif font.
   - type size: better in 18-36 point, 14 point for the reference part.
@@ -32,17 +39,14 @@ tags:
   - every slide has a heading (just a simple sentence).
   - limit text blocks to no more than 2 lines.
   - be generous with empty space.
-  - include a simple image on every slide.
-- a ideal PPT contains: 
-  - a simple statemnet at the top
-  - a simple visual 
-  - what you as a speaker are saying
-  - (make the same content be delivered through three channels at the same time)
+  - include a simple image on every slide. 
 - style:
   - each slide makes just one or two points
-  - a simple rule: "If you're not going to take the time to explain it, get rid of it"
   - avoid fancy transitions between slides (if it will help you to deliver your content, it may make sence)
   - don't drown the audience with data
+
+### simple rule
+  - "If you're not going to take the time to explain it, get rid of it"
   - less is more, just get feedback from practice and colleagues to make sure you are not overwhelming people with too much contents
 
   
