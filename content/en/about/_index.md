@@ -32,7 +32,7 @@ type : list-single
 #### The 1st thing
 In my high school, I was always one of the worst performers in PE class, especially in the 800-meter run test. During my freshman year of college, I wanted to do something I want to do something to adjust my state, so I began to run regularly. My initial goal was to run just 4 or 5 laps, but as I continued running, I found more joy in it. By the end of my freshman year, I was able to run over 20 laps. 
 
-During the relatively leisurely two years of college, I ran roughly 5 kms every day, sometimes even two times of 5-kms running in morning and evening. I never imagined that in just two years, I went from not being able to complete an 800-meter run to being able to run over 10 kms. 
+During the relatively leisurely two years of college, I ran roughly 5 kms every day, sometimes even two times of 5-kms running in morning and evening. I never imagined that I went from not being able to complete an 800-meter run to being able to run over 10 kms in just two years. 
 
 This achievement always encourages me that there is no difficulty I cannot overcome. Currently, I still maintain this habit, although the frequency may be lower at times.
 
