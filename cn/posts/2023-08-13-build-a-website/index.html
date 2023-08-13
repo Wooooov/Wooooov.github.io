@@ -1,0 +1,39 @@
+<a name=top></a><!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>余忻萌：Sandy Yu</title><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css><link rel=stylesheet href=/css/style.css><link rel=stylesheet href=/css/fonts.css><link href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css rel=stylesheet><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/bash.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/python.min.js></script>
+<script src=https://cdn.jsdelivr.net/npm/vega@5.17.0></script>
+<script src=https://cdn.jsdelivr.net/npm/vega-lite@4.17.0></script>
+<script src=https://cdn.jsdelivr.net/npm/vega-embed@6.12.2></script>
+<script>hljs.initHighlightingOnLoad()</script></head><body><div class=wrapper><header class=header><nav class=nav><a href=/ class=nav-logo><img src=/media/dog-logo.jpg width=50 height=50 alt=Hugo-ht></a><ul class=nav-links><ul class=nav-links><li><a href=/>Home</a></li><li><a href=/en/about/>About me</a></li><li><a href=/en/posts/>English</a></li><li><a href=/cn/posts/>Chinese</a></li></ul></ul></nav></header><main class=content role=main><div style=text-align:center><h1>[博客搭建] 用Hugo搭建个人网站</h1><p>余忻萌
+/ 2023-08-12</p><hr></div><span class=article-toolbar></span><div class="body-text list-text"><p>on:
+push:
+branches:
+- master # Set a branch name to trigger deployment</p><p>jobs:
+deploy:
+runs-on: ubuntu-latest
+steps:
+- uses: actions/checkout@v2
+with:
+submodules: true # Fetch Hugo themes (true OR recursive)
+fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+token: ${{ secrets.PERSONAL_TOKEN }}</p><pre><code>  - name: Setup Hugo
+    uses: peaceiris/actions-hugo@v2
+    with:
+      hugo-version: &amp;#39;填自己的hugo version&amp;#39; # 请修改你的 hugo version
+
+  - name: Build
+    run: hugo --minify
+
+  - name: Deploy
+    uses: peaceiris/actions-gh-pages@v3
+    with:
+      github_token: ${{ secrets.PERSONAL_TOKEN }}
+      publish_branch: gh-pages
+      publish_dir: ./public
+</code></pre><p>7.上传github</p><p>直接更改本地hugo文件就行，改了之后上传到github：</p><p style=color:#777>最后更新于： 2023-08-12</p></div><a href=#top><i class="fa fa-chevron-up" style=font-size:30px;color:#000></i></a><div>☝ 返回顶部</div></main><footer class=footer><script type=text/javascript src=/js/math-code.js></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script type=text/javascript src=/js/center-img.js></script><ul class=footer-links><li><a href=https://gohugo.io/ class=footer-links-kudos target=_blank>Made with <img src=/media/hugo-logo.png width=22 height=22></a></li><li><a href=https://github.com/ class=footer-links-kudos target=_blank>Content in
+<i class="fa fa-github" style=font-size:24px></i></a></li></ul><div class=copyright-text>©
+Sandy
+2023-2023</div></footer>
