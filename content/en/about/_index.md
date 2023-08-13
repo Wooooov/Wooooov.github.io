@@ -5,14 +5,18 @@ author: Sandy
 type : list-single
 ---
 {{<block class="note">}}
-CV will be uploaded soon.
+My CV will be uploaded soon.
 {{<end>}}
 
 ## Personal information
 **Yu Xinmeng**
+
 ***Phone***: 18075322078
+
 ***Email***: yxm981203@163.com
+
 ***Born*** : Dec.03,1998
+
 ***Hometown*** : Anqing,Anhui,China
 
 ---
@@ -24,14 +28,14 @@ CV will be uploaded soon.
 ---
 
 ## Some meaningful events in my recent years
-#### The 1st thing:
+#### The 1st thing
 In my high school, I was always one of the worst performers in PE class, especially in the 800-meter run test. During my freshman year of college, I wanted to do something I want to do something to adjust my state, so I began to run regularly. My initial goal was to run just 4 or 5 laps, but as I continued running, I found more joy in it. By the end of my freshman year, I was able to run over 20 laps. 
 
 During the relatively leisurely two years of college, I ran roughly 5 kms every day, sometimes even two times of 5-kms running in morning and evening. I never imagined that in just two years, I went from not being able to complete an 800-meter run to being able to run over 10 kms. 
 
 This achievement always encourages me that there is no difficulty I cannot overcome. Currently, I still maintain this habit, although the frequency may be lower at times.
 
-#### The 2nd thing:
+#### The 2nd thing
 During my preparation for the postgraduate entrance examination, in order to increase my chances of being admitted to my desired graduate school, I decided to take the Programming Ability Test (PAT). At that time, my programming skills were very weak, and the knowledge I learned in the basic programming course during my undergraduate studies was mostly theoretical. I only had a superficial understanding of some data structures and algorithm theory. After studying hard for a while, I took an offline exam. I still remember on that day, the sound of people around me typing on the keyboard proficiently in the exam room struck a blow to my self-esteem, and I performed poorly in the exam.
 
 After some time, I registered for the test again. While preparing for this test, I was also busy preparing for the entrance examination for the master's program. With the huge pressure and anxiety, the painful process and unsatisfactory results almost crushed me. I once felt that I was a complete loser in programming.
@@ -40,7 +44,7 @@ In my first year of graduate school, while organizing my browser bookmarks, I ca
 
 Now, my programming skills are still average, but I am happily walking on the path of learning. I am really grateful that I wasn't defeated by these difficulties.
 
-#### The 3rd thing:
+#### The 3rd thing
 Since I was young, I have been someone who is afraid to speak up in class and hesitant to express my own opinions in public. It seems that from the beginning, I left an impression of being introverted, then as a result, I naturally confined myself to my comfort zone and rarely stepped out of it.
 
 During my first year in my master's degress, there were so many courses, most of which required classroom presentations. In addition, our laboratory had weekly meetings where each team member took turns presenting. It is not an exaggeration to say that the number of presentations I gave in the first semester of my graduate studies exceeded the total number of times I had spoken in public throughout my life.
@@ -49,7 +53,7 @@ At the beginning, I was always so nervous that I couldn't sleep at night before 
 
 This year, I even proactively signed up for an academic presentation competition at my college and received a second prize. Whenever I think about the changes I have made during my first year of master's degress, I am filled with deep emotions.
 
-#### The 4th thing:
+#### The 4th thing
 I finally made my person website!
 
 #### Life is going on...
@@ -57,13 +61,11 @@ I finally made my person website!
 ---
 
 ## Some components of myself
-- Since I was young, I have had a great interest in art. I have learned to play the guitar and erhu, and I am also interested in design, such as web design, logo design, charts design and so on.
+- Since I was young, I have had a great interest in art. I have learned to play the guitar and erhu, and I am also interested in design, such as web design, logo design, charts design and so on. My biggest hobby is drawing. Although I haven't received professional training in painting, I usually self-study through copying and tutorials. I have tried using pencils, watercolors, and panel painting techniques.
 
-My biggest hobby is drawing. Although I haven't received professional training in painting, I usually self-study through copying and tutorials. I have tried using pencils, watercolors, and panel painting techniques.
-
-{{<figure src="/images/sandy.jpg" title="This painting was created by myself using the Procreate on my iPad" width="300">}}
+{{<figure src="/images/sandy.jpg" title="This painting was drawed by myself using my iPad" width="300">}}
 
 - I am a dog person and I am extremely grateful to meet my dogs, wishing they can always be by my side.
 
-{{<figure src="/images/mydog.jpg" title="They are Coco, Tiaotiao, and Guagua(from left to right)." width="300">}}
+{{<figure src="/images/mydog.jpg" title="They are Coco, Tiaotiao, and Guagua (from left to right)." width="300">}}
 
