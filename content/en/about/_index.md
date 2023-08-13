@@ -1,12 +1,9 @@
 ---
-title: "Who is Sandy?"
+title: "Yu Xinmeng / Sandy"
 date: 2023-08-12
 author: Sandy
 type : list-single
 ---
-{{<block class="note">}}
-My CV will be uploaded soon.
-{{<end>}}
 
 ## Personal information
 **Yu Xinmeng**
@@ -52,9 +49,6 @@ During my first year in my master's degress, there were so many courses, most of
 At the beginning, I was always so nervous that I couldn't sleep at night before my presentation. However, I gradually discovered that preparing for presentations was a great way to organize my thoughts. During the process of preparing a presentation, issues that I had overlooked and some jumbled ideas generally became clearer. Some thinking habits I developed from these experience not only helped me in my studies but also influenced how I approach life and handle situations. 
 
 This year, I even proactively signed up for an academic presentation competition at my college and received a second prize. Whenever I think about the changes I have made during my first year of master's degress, I am filled with deep emotions.
-
-#### The 4th thing
-I finally made my person website!
 
 #### Life is going on...
 
