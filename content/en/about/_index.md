@@ -23,8 +23,8 @@ type : list-single
 ---
 
 ## **Education Experience**
-- 2021 - today (Master), Hangzhou Normal Unniversity, major in Computer Appliance and Technology
-- 2016 - 2020 (Bachelor), Anhui University of Chinese Medicine, major in Information Management and Information System
+- 2021 - today (Master degree), Hangzhou Normal Unniversity, major in Computer Appliance and Technology
+- 2016 - 2020 (Bachelor degree), Anhui University of Chinese Medicine, major in Information Management and Information System
 
 ---
 
