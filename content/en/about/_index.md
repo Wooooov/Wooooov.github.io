@@ -16,6 +16,10 @@ type : list-single
 
 ***Hometown*** : Anqing,Anhui,China
 
+[***CV***]()
+
+[***Personal statement***](https://wooooov.github.io/files/PersonalStatement.pdf) 
+
 ---
 
 ## **Education Experience**
