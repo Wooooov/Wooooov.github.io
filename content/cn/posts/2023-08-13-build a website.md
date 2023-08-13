@@ -11,9 +11,11 @@ author: 余忻萌
 ---
 ### **搭建过程**
 ***Step 1.*** 首先：
-要有github账号，有文本编辑器，安装git，安装hugo，知道一些markdown语法
+要有github账号，有文本编辑器，安装git，安装hugo，知道一些Markdown语法
 - [安装hugo](https://github.com/gohugoio/hugo/releases)
  需要配置系统路径
+- Markdown 可以边用边学
+- 用git bash终端进行更新
 
 ***Step 2.*** 新建hugo网站
 hugo博客是一个文件夹，找一个位置用终端新建一个hugo文件：
