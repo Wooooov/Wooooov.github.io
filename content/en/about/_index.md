@@ -61,7 +61,8 @@ I finally made my person website!
 ---
 
 ## Some components of myself
-- Since I was young, I have had a great interest in art. I have learned to play the guitar and erhu, and I am also interested in design, such as web design, logo design, charts design and so on. My biggest hobby is drawing. Although I haven't received professional training in painting, I usually self-study through copying and tutorials. I have tried using pencils, watercolors, and panel painting techniques.
+- Since I was young, I have had a great interest in art. I have learned to play the guitar and erhu, and I am also interested in design, such as web design, logo design, charts design and so on. 
+- My biggest hobby is drawing. Although I haven't received professional training in painting, I usually self-study through copying and tutorials. I have tried using pencils, watercolors, and panel painting techniques.
 
 {{<figure src="/images/sandy.jpg" title="This painting was drawed by myself using my iPad" width="300">}}
 
