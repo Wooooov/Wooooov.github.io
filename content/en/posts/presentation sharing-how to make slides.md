@@ -13,27 +13,27 @@ tags:
  This lecture really helped me a lot and I gained many useful suggestions from it.
 
 ---
-## This video is from bilibili
+## **This video is from bilibili**
 
 {{< bilibili 805646984 >}}
 
 ---
 
 ## **Some notes** 
-### what the audience want to gain from a talk:
+#### what the audience want to gain from a talk:
 - contain enough background 
 - not hard to understand: the audience are able to see the data, understand it and interpret it
 
-### A ideal PPT 
+#### A ideal PPT 
    a perfect slide contains:
    - a simple statemnet at the top
    - a simple visual 
    - what you as a speaker are saying
-   
+
   the three parts help make a same content be delivered through three channels at the same time
 
-### Specific suggesstion of PPT basics:
-- what front to use: 
+#### Specific suggesstions of PPT basics:
+- front: 
   - a Sans Serif font.
   - type size: better in 18-36 point, 14 point for the reference part.
 - color: 
@@ -49,7 +49,7 @@ tags:
   - avoid fancy transitions between slides (if it will help you to deliver your content, it may make sence)
   - don't drown the audience with data
 
-### Simple rule
+#### Simple rule
   - "If you're not going to take the time to explain it, get rid of it"
   - less is more, just get feedback from practice and colleagues to make sure you are not overwhelming people with too much contents
 
