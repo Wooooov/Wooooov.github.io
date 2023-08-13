@@ -1,5 +1,5 @@
 ---
-title: "[博客搭建] 用Hugo搭建个人网站"
+title: "网站搭建: 用Hugo和github搭建个人网站"
 date: 2023-08-12
 author: 余忻萌
 categories:
