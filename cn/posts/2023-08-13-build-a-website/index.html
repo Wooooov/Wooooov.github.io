@@ -6,7 +6,7 @@
 <script src=https://cdn.jsdelivr.net/npm/vega-lite@4.17.0></script>
 <script src=https://cdn.jsdelivr.net/npm/vega-embed@6.12.2></script>
 <script>hljs.initHighlightingOnLoad()</script></head><body><div class=wrapper><header class=header><nav class=nav><a href=/ class=nav-logo><img src=/media/dog-logo.jpg width=50 height=50 alt=Hugo-ht></a><ul class=nav-links><ul class=nav-links><li><a href=/>Home</a></li><li><a href=/en/about/>About me</a></li><li><a href=/en/posts/>English</a></li><li><a href=/cn/posts/>Chinese</a></li></ul></ul></nav></header><main class=content role=main><div style=text-align:center><h1>[博客搭建] 用Hugo搭建个人网站</h1><p>余忻萌
-/ 2023-08-12</p><hr></div><span class=article-toolbar></span><div class="body-text list-text"><hr><ul><li>从有想法到实现整了好几天，经历了 「看起来好简单的样子」 -> 「卡在了开头」 -> 「放弃」 -> 「再试一次」 -> 「再试N次」</li><li>只想告诉自己经验少、知识不足不该是借口，always on the road to learning.</li><li>总之，深刻感受编程知识不是看来的而是自己试出来的，再详细的教程实操起来都困难重重，看起来再无脑的坑实际操作时还是会踩到，多学多练别放弃。</li></ul><hr><hr><h3 id=搭建过程><strong>搭建过程</strong><a href=#搭建过程 class=header-anchor arialabel=Anchor> #</a></h3><p><em><strong>Step 1.</strong></em> 首先：
+/ 2023-08-12</p><hr></div><span class=article-toolbar></span><div class="body-text list-text"><ul><li>从有想法到实现整了好几天，经历了 「看起来好简单的样子」 -> 「卡在了开头」 -> 「放弃」 -> 「再试一次」 -> 「再试N次」的过程</li><li>只想告诉自己经验少、知识不足不该是借口，always on the road to learning.</li><li>总之，深刻感受编程知识不是看来的而是自己试出来的，再详细的教程实操起来都困难重重，看起来再无脑的坑实际操作时还是会踩到，多学多练别放弃。</li></ul><hr><h3 id=搭建过程><strong>搭建过程</strong><a href=#搭建过程 class=header-anchor arialabel=Anchor> #</a></h3><p><em><strong>Step 1.</strong></em> 首先：
 要有github账号，有文本编辑器，安装git，安装hugo，知道一些Markdown语法</p><ul><li><a href=https://github.com/gohugoio/hugo/releases target=_blank rel="noreferrer noopener">安装hugo</a>
 需要配置系统路径</li><li>Markdown 可以边用边学</li><li>用git bash终端进行更新</li></ul><p><em><strong>Step 2.</strong></em> 新建hugo网站
 hugo博客是一个文件夹，找一个位置用终端新建一个hugo文件：</p><pre tabindex=0><code>hugo new site mywebsite
@@ -21,11 +21,10 @@ start ~/.ssh
 mkdir ~/.ssh/ &amp;&amp; cd ~/.ssh # 在当前目录下新建.ssh文件夹
 ssh-keygen -t rsa -b 4096 -C &#34;$(git config user.email)&#34; -f gh-pages -N &#34;&#34;
 start ~/.ssh 
-</code></pre><p>会得到两个新增的文件：gh-pages 和 gh-pages.pub</p><ul><li>然后，进行以下三个操作：<ul><li>github新建的库里：Settings -> Deploy keys ->Add deploy key，
-同时终端输入：</li></ul></li></ul><pre tabindex=0><code>clip &lt; ~/.ssh/gh-pages.pub # 复制里面的deploy key
-</code></pre><p>粘贴到库的key value里，Add key。</p><ul><li>github新建的库里：Settings -> -> Actions ->New repository secret，
-再终端输入：</li></ul><pre tabindex=0><code>clip &lt; ~/.ssh/gh-pages # 复制里面的secret
-</code></pre><p>粘贴到库的secret value,Name填ACTIONS_DEPLOY_KEY，Add secret。</p><ul><li>打开<a href=https://github.com/settings/tokens target=_blank rel="noreferrer noopener">这里</a>
+</code></pre><p>会得到两个新增的文件：gh-pages 和 gh-pages.pub</p><ul><li>然后，在github新建的库里：Settings -> Deploy keys ->Add deploy key，
+同时终端输入：</li></ul><pre tabindex=0><code>clip &lt; ~/.ssh/gh-pages.pub # 复制里面的deploy key
+</code></pre><p>粘贴到库的key value里，Add key。</p><ul><li>再在 github新建的库里：Settings -> -> Actions ->New repository secret，同时终端输入：</li></ul><pre tabindex=0><code>clip &lt; ~/.ssh/gh-pages # 复制里面的secret
+</code></pre><p>粘贴到库的secret value,Name填ACTIONS_DEPLOY_KEY，Add secret。</p><ul><li>之后打开<a href=https://github.com/settings/tokens target=_blank rel="noreferrer noopener">这里</a>
 设置github的个人token，点击Generate new token (Classic)，选中workflow，然后generate token并复制。
 github新建的库里：Settings -> Security -> Secrets -> Actions -> New repository secret，粘贴到value框，Name填PERSONAL_TOKEN，Add secret。</li></ul><p><em><strong>Step 6.</strong></em> 添加workflow
 终端输入：</p><pre tabindex=0><code>notepad .github/workflows/gh-pages.yml
@@ -60,13 +59,13 @@ jobs:
           github_token: ${{ secrets.PERSONAL_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./public
-</code></pre><p><em><strong>Step 7.</strong></em> 上传github</p><pre tabindex=0><code>git init
+</code></pre><p><em><strong>Step 7.</strong></em> 上传到github</p><pre tabindex=0><code>git init
 git add .
 git commit -m &#34;first commit.&#34;
 git remote add origin https://github.com/github用户名/github用户名.github.io.git
 git push -u origin master
 </code></pre><p>在github新建的库里：Settings -> Pages,在 Source 那里，Branch 选择 gh-pages, 右侧的框框选择 root，然后点 Save。得等一会：</p><pre tabindex=0><code>Your site is published at https://github用户名.github.io/
-</code></pre><p>step 8. 后续更新
+</code></pre><p><em><strong>Step 8.</strong></em> 后续更新
 直接更改本地hugo文件就行，改了之后上传到github：</p><pre tabindex=0><code>git add .
 msg=&#34;updating site on $(date)&#34; 
 git commit -m &#34;$msg&#34;
