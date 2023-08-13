@@ -46,6 +46,9 @@ Site last updated on
 {{ .Site.LastChange.Format "2006-01-02" }}
 {{ end }}
 
+{{ if .IsHome}}
+Website visits:<span id="busuanzi_value_site_pv"></span> times.
+{{end}}
 
 </div>
 
