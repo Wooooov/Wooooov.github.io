@@ -64,7 +64,7 @@ posts = "/posts/:year/:month/:day/:slug/"
   url = "media/dog-logo.jpg" # you can change it
   width = 50.0
   height = 50.0
-  alt = "余忻萌：Sandy Yu"
+  alt = "余忻萌 / Sandy"
 
 [params.lang]
 
