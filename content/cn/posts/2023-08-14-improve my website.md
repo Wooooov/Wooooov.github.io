@@ -33,26 +33,26 @@ tags:
  <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
  ```
   - 使用到自己的hugo主题中：
-     在themes目录下的layouts下的partials下的head.html中引入不蒜子js文件，代码为：
+    1. 在themes目录下的layouts下的partials下的head.html中引入不蒜子js文件，代码为：
     
   ```
   <!-- 不蒜子 -->
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   ```
 
-     在页面添加统计代码：
+    2. 在页面添加统计代码：
 
   ```
   <span id="busuanzi_container_site_pv">
     本站访问量：<span id="busuanzi_value_site_pv"></span>次
   </span>
-  &nbsp;
+ 
   <span id="busuanzi_container_site_uv">
       您是本站第 <span id="busuanzi_value_site_uv"></span> 位访问者
   </span>
   ```
 
-     找到themes目录下的layouts下的_default下的single.html,添加以下代码:
+    3. 找到themes目录下的layouts下的_default下的single.html,添加以下代码:
 
   ```
   <h5 id="wc" style="font-size: 1rem;text-align: center;">{{ .FuzzyWordCount }} Words|Read in about {{ .ReadingTime }} Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
@@ -68,23 +68,22 @@ tags:
 
 - code
   - code
-    -code
-      1.code
+    1. code
 ```
 - code
+
    列表内想有缩进内容，但是不想让内容前有列表标记的话，只需要在这一行空三格
 - code
-    #想让列表内容空格大一些，只需要在每行之间加入空行就好
+    # 想让列表内容空格大一些，只需要在每行之间加入空行就好
 
 - code
   - code
-    -code
-      1.code
+    1. code
+    2. code
 
 **2. 表格**
 ```
 #code
-
 | A | *B* | **C** |
 |---------|---------|---------|
 | a1 | `b1` | c1 |
