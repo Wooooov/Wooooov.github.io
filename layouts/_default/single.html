@@ -51,3 +51,14 @@ Table of Contents:
 {{ partial "footer.html" . }}
 
 <!--post页面设置-->
+
+<div style="text-align: center; color: gray; margin-top: -20px; font-size: 19px;
+margin-bottom: 10px">
+
+{{ if not .IsHome}}
+<br/><span id="busuanzi_container_site_pv">
+  Websit visits: <span id="busuanzi_value_site_pv"></span> times.
+</span></br>
+{{ end }}
+
+</div>
