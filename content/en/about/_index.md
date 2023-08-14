@@ -7,25 +7,14 @@ type : list-single
 ---
 
 ## **Personal information**
-{{< columns >}}
 
-***Born*** : 1998-12-03
+***Born*** : 1998-12-03  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp ***Hometown*** : Anqing,Anhui,China
 
-***Hometown*** : Anqing,Anhui,China
+***Phone***: 18075322078  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp ***Email***: yxm981203@163.com
 
-[***CV***](https://wooooov.github.io/files/CV.pdf) 
+[***CV***](https://wooooov.github.io/files/CV.pdf) &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  [***Personal statement***](https://wooooov.github.io/files/PersonalStatement.pdf) 
 
-{{< endcolumn >}}
 
-{{< columns >}}
-
-***Phone***: 18075322078
-
-***Email***: yxm981203@163.com
-
-[***Personal statement***](https://wooooov.github.io/files/PersonalStatement.pdf) 
-
-{{< endcolumn >}}
 
 ---
 
