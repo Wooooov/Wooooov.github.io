@@ -20,7 +20,7 @@ tags:
 <iframe src="//player.bilibili.com/player.html?aid=805646984&bvid=BV1N34y1D7vX&cid=415023650&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 ```
 - 嵌入的方法：
-  - 获取aid:  ```{{bilibili 805646984}}``
+  - 获取aid后:  ```{{bilibili 805646984}}```
   - 获取cid
   - 直接插入代码
 
@@ -38,7 +38,9 @@ tags:
   <!-- 不蒜子 -->
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   ```
+  
     - 在页面添加统计代码：
+
   ```
   <span id="busuanzi_container_site_pv">
     本站访问量：<span id="busuanzi_value_site_pv"></span>次
@@ -48,7 +50,9 @@ tags:
       您是本站第 <span id="busuanzi_value_site_uv"></span> 位访问者
   </span>
   ```
+
     - 找到themes目录下的layouts下的_default下的single.html,添加以下代码:
+
   ```
   <h5 id="wc" style="font-size: 1rem;text-align: center;">{{ .FuzzyWordCount }} Words|Read in about {{ .ReadingTime }} Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
   ```
