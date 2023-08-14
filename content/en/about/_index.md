@@ -12,7 +12,7 @@ type : list-single
 
 - **Phone**: 18075322078&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Email**: yxm981203@163.com
 
--[***CV***](https://wooooov.github.io/files/CV.pdf)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[***Personal statement***](https://wooooov.github.io/files/PersonalStatement.pdf) 
+- [***CV***](https://wooooov.github.io/files/CV.pdf)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[***Personal statement***](https://wooooov.github.io/files/PersonalStatement.pdf) 
 
 
 
