@@ -14,7 +14,7 @@ tags:
 ---
 
 ### **网站优化**
-**1.**  在网站中嵌入视频
+**1.  在网站中嵌入视频**
 - 以bilibili网站视频为例，通过分享按钮可以直接获得嵌入代码
 ```
 <iframe src="//player.bilibili.com/player.html?aid=805646984&bvid=BV1N34y1D7vX&cid=415023650&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
@@ -24,7 +24,7 @@ tags:
   - 获取cid
   - 直接插入代码
 
-**2.**  hugo网站中引入访问计数功能
+**2.  hugo网站中引入访问计数功能**
 - 使用访问计数插件 「不蒜子」
 - 集成方法：
   - 官网代码：
