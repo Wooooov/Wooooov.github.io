@@ -34,6 +34,17 @@
 </main>
 
 
+<div style="text-align: center; color: gray; margin-top: -20px; font-size: 19px;
+margin-bottom: 10px">
+
+{{ if .IsHome}}
+  <span id="busuanzi_container_site_pv">
+    --- Website visits: <span id="busuanzi_value_site_pv"></span> times. ---
+  </span>
+{{ end }}
+
+</div>
+
 {{ partial "footer.html" . }} 
 
 <!--用来改页面最下-->
@@ -48,11 +59,11 @@ Site last updated on
 {{ .Site.LastChange.Format "2006-01-02" }}
 {{ end }}
 
-
+{{ if not .IsHome}}
 <br/><span id="busuanzi_container_site_pv">
   --- Website visits: <span id="busuanzi_value_site_pv"></span> times. ---
 </span></br>
-
+{{ end }}
 
 </div>
 
