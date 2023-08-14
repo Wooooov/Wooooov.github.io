@@ -15,6 +15,8 @@ type : list-single
 
 [***CV***](https://wooooov.github.io/files/CV.pdf) 
 
+{{< endcolumn >}}
+
 {{< columns >}}
 
 ***Phone***: 18075322078
