@@ -40,7 +40,7 @@ tags:
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   ```
 
-    2. 在页面添加统计代码：
+  -  2. 在页面添加统计代码：
 
   ```
   <span id="busuanzi_container_site_pv">
@@ -52,7 +52,7 @@ tags:
   </span>
   ```
 
-    3. 找到themes目录下的layouts下的_default下的single.html,添加以下代码:
+  -  3. 找到themes目录下的layouts下的_default下的single.html,添加以下代码:
 
   ```
   <h5 id="wc" style="font-size: 1rem;text-align: center;">{{ .FuzzyWordCount }} Words|Read in about {{ .ReadingTime }} Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
