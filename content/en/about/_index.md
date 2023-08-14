@@ -8,11 +8,11 @@ type : list-single
 
 ## **Personal information**
 
-- **Born** : 1998-12-03&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Hometown** : Anqing, Anhui, China
+- **Born** : 1998-12-03&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Hometown** : Anqing, Anhui, China
 
-- **Phone**: 18075322078&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Email**: yxm981203@163.com
+- **Phone**: 18075322078&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Email**: yxm981203@163.com
 
-- [***CV***](https://wooooov.github.io/files/CV.pdf)&emsp;&emsp;&emsp;&emsp;[***Personal statement***](https://wooooov.github.io/files/PersonalStatement.pdf) 
+- [***CV***](https://wooooov.github.io/files/CV.pdf)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[***Personal statement***](https://wooooov.github.io/files/PersonalStatement.pdf) 
 
 
 
