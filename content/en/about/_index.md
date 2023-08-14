@@ -7,18 +7,23 @@ type : list-single
 ---
 
 ## **Personal information**
+{{< columns >}}
 
 ***Born*** : 1998-12-03
 
 ***Hometown*** : Anqing,Anhui,China
 
+[***CV***](https://wooooov.github.io/files/CV.pdf) 
+
+{{< columns >}}
+
 ***Phone***: 18075322078
 
 ***Email***: yxm981203@163.com
 
-[***CV***]()         
-
 [***Personal statement***](https://wooooov.github.io/files/PersonalStatement.pdf) 
+
+{{< endcolumn >}}
 
 ---
 
@@ -43,7 +48,7 @@ After some time, I registered for the test again. While preparing for this test,
 
 In my first year of graduate school, while organizing my browser bookmarks, I came across the website where I had practiced for the PAT exam a year ago. Suddenly, I had the idea of challenging myself again. I registered and started preparing. I started from scratch, exploring concepts I didn't understand before. This time, I found pleasure in programming. Every day of preparation made me feel fulfilled and meaningful. The process of programming is like teaching by a teacher who corrected the logic of my assignments. It was a truly wonderful feeling for me to organize the structure and logic of a problem.
 
-Now, my programming skills are still average, but I am happily walking on the path of learning. I am really grateful that I wasn't defeated by these difficulties.
+Now, although I don't regard myself an excellent programmar, I am happily walking on the path of learning. I am really grateful that I wasn't defeated by previous difficulties I met.
 
 #### The 3rd thing
 Since I was young, I have been someone who is afraid to speak up in class and hesitant to express my own opinions in public. It seems that from the beginning, I left an impression of being introverted, then as a result, I naturally confined myself to my comfort zone and rarely stepped out of it.
