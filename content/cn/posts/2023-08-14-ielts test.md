@@ -26,7 +26,7 @@ tags:
 ---
 
 ### **关于口语**
-&emsp;&emsp;备考的过程从感受上来说只能是相当痛苦，一开始的时候真不理解，为什么面对一个"do you like xx? why?"这种问题，写作文我能写一大段，形容词、高级词汇一大堆，一开口就是"emm... I think... is good... is so big...",只能说多练多练多练。
+&emsp;&emsp;备考的过程从感受上来说只能是相当痛苦，一开始的时候真不理解，为什么面对一个简单的 "do you like xx? why?" 问题，写作文我能写一大段，形容词、高级词汇一大堆，一开口就是"emm... I think... is good... is so big...",只能说多练多练多练。
 
 （some of my notes will upload soon）
 
