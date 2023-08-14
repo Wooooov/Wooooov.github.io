@@ -48,7 +48,7 @@ type : list-single
 
 &emsp;&emsp;At the beginning, I was always so nervous that I couldn't sleep at night before my presentation. However, I gradually discovered that preparing for presentations was a great way to organize my thoughts. During the process of preparing a presentation, some jumbled ideas and the issues that I had overlooked generally became clearer. By the time I found it meaningful to me, I wasn't so afraid of it. Some thinking habits I developed from these presentation experience not only helped me in my studies but also influenced how I handle situations in my daily life. 
 
-&emsp;&emsp;This year, I even proactively signed up for an academic presentation competition at my college and received a second prize. Whenever I think about these changes I have made during my first year of master's degress, I am filled with deep emotions.
+&emsp;&emsp;This year, I even proactively signed up for an academic presentation competition at my college and received a second prize. Whenever I think about these changes I have made in my recent years, I am filled with deep emotions.
 
 #### Life is going on...
 
