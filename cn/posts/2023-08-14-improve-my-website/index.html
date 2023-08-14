@@ -11,16 +11,14 @@
 &lt;span id=&#34;busuanzi_container_site_pv&#34;&gt;本站总访问量&lt;span id=&#34;busuanzi_value_site_pv&#34;&gt;&lt;/span&gt;次&lt;/span&gt;
 </code></pre><ul><li>使用到自己的hugo主题中：<ol><li>在themes目录下的layouts下的partials下的head.html中引入不蒜子js文件，代码为：</li></ol></li></ul><pre tabindex=0><code>&lt;!-- 不蒜子 --&gt;
 &lt;script async src=&#34;//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&#34;&gt;&lt;/script&gt;
-</code></pre><pre><code>2. 在页面添加统计代码：
-</code></pre><pre tabindex=0><code>&lt;span id=&#34;busuanzi_container_site_pv&#34;&gt;
+</code></pre><ul><li><ol start=2><li>在页面添加统计代码：</li></ol></li></ul><pre tabindex=0><code>&lt;span id=&#34;busuanzi_container_site_pv&#34;&gt;
   本站访问量：&lt;span id=&#34;busuanzi_value_site_pv&#34;&gt;&lt;/span&gt;次
 &lt;/span&gt;
  
 &lt;span id=&#34;busuanzi_container_site_uv&#34;&gt;
     您是本站第 &lt;span id=&#34;busuanzi_value_site_uv&#34;&gt;&lt;/span&gt; 位访问者
 &lt;/span&gt;
-</code></pre><pre><code>3. 找到themes目录下的layouts下的_default下的single.html,添加以下代码:
-</code></pre><pre tabindex=0><code>&lt;h5 id=&#34;wc&#34; style=&#34;font-size: 1rem;text-align: center;&#34;&gt;{{ .FuzzyWordCount }} Words|Read in about {{ .ReadingTime }} Min|本文总阅读量&lt;span id=&#34;busuanzi_value_page_pv&#34;&gt;&lt;/span&gt;次&lt;/h5&gt;
+</code></pre><ul><li><ol start=3><li>找到themes目录下的layouts下的_default下的single.html,添加以下代码:</li></ol></li></ul><pre tabindex=0><code>&lt;h5 id=&#34;wc&#34; style=&#34;font-size: 1rem;text-align: center;&#34;&gt;{{ .FuzzyWordCount }} Words|Read in about {{ .ReadingTime }} Min|本文总阅读量&lt;span id=&#34;busuanzi_value_page_pv&#34;&gt;&lt;/span&gt;次&lt;/h5&gt;
 </code></pre><h3 id=markdown-语法笔记><strong>Markdown 语法笔记</strong><a href=#markdown-语法笔记 class=header-anchor arialabel=Anchor> #</a></h3><p><strong>1. 列表</strong></p><pre tabindex=0><code>- code
    列表内想有缩进内容，但是不想让内容前有列表标记的话，只需要在这一行空三格
 - code
