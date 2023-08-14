@@ -8,9 +8,9 @@ type : list-single
 
 ## **Personal information**
 
-- **Born** : 1998-12-03&emsp;
+- **Born** : 1998-12-03
 - **Hometown** : Anqing, Anhui
-- **Phone**: 18075322078&emsp;
+- **Phone**: 18075322078
 - **Email**: yxm981203@163.com
 - [***CV***](https://wooooov.github.io/files/CV.pdf) (just click to download)
 - [***Personal statement***](https://wooooov.github.io/files/PersonalStatement.pdf) (just click to download)
