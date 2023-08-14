@@ -8,7 +8,7 @@ type : list-single
 
 ## **Personal information**
 
-&emsp;&emsp;&emsp;&emsp;**Born** : 1998-12-03&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Hometown** : Anqing, Anhui, China
+&emsp;&emsp;&emsp;&emsp;**Born** : 1998-12-03&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Hometown** : Anqing, Anhui
 
 &emsp;&emsp;&emsp;&emsp;**Phone**: 18075322078&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Email**: yxm981203@163.com
 
