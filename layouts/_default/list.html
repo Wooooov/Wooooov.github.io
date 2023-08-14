@@ -37,9 +37,11 @@
 <div style="text-align: center; color: gray; margin-top: -20px; font-size: 19px;
 margin-bottom: 10px">
 
+{{ if .IsHome}}
   <span id="busuanzi_container_site_pv">
     Websit visits: <span id="busuanzi_value_site_pv"></span> times.
   </span>
+{{ end }}
 
 </div>
 
@@ -55,6 +57,12 @@ margin-bottom: 10px">
 Site last updated on
 {{ (index .Site.Params.lang.Sitelastupdate $.Site.Params.defaultLang) }}
 {{ .Site.LastChange.Format "2006-01-02" }}
+{{ end }}
+
+{{ if not .IsHome}}
+<br/><span id="busuanzi_container_site_pv">
+  Websit visits: <span id="busuanzi_value_site_pv"></span> times.
+</span></br>>
 {{ end }}
 
 </div>
