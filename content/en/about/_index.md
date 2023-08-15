@@ -12,8 +12,8 @@ type : list-single
 - **Hometown** : Anqing, Anhui
 - **Phone**: 18075322078
 - **Email**: yxm981203@163.com
-- [***CV***](https://wooooov.github.io/files/CV.pdf)&emsp; (just click to download)
-- [***Personal statement***](https://wooooov.github.io/files/PersonalStatement.pdf)&emsp; (just click to download)
+- [***CV***](https://wooooov.github.io/files/CV.pdf)&emsp;( click to download )
+- [***Personal statement***](https://wooooov.github.io/files/PersonalStatement.pdf)&emsp;( click to download )
 
 ---
 
