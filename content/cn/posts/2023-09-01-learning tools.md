@@ -49,7 +49,7 @@ tags:
 
 &emsp;&emsp;这个网站就是用来背单词和词组的改写的，都是选择题选同义词。手机也可以答，也不用注册啥七七八八的，答对了一个就能捐出一粒米，是真真实实会捐给世界上吃不上饭的人的。学英语的同时为自己积攒功德，这是何琼老师说的。
 
-{{<figure src="/images/freerice.jpg" title="学英语 and 帮助有需要的人 -> 积攒好运" width="800">}}
+{{<figure src="/images/freerice.jpg" title="学英语 + 帮助有需要的人 = 积攒实力和好运" width="900">}}
 ---
 
 ### **sorry, the content will be updated soon**
