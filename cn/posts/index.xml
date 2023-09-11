@@ -34,4 +34,5 @@ hugo new site mywebsite Step 3. 选一个hugo网站主题
 hugo主题 放进新建的mywebsite/themes中之后，可以用： hugo server -D # 这里的 D 是 draft 的意思 在 http://localhost:1313/ 上进行预览，Ctrl+C停止预览。
 Step 4. 新建一个github仓库 命名成 Github用户名 xxx.github.io (public)
 Step 5. 密钥设置
-首先,在mywebsite根目录下终端输入： mkdir .github mkdir .github/workflows touch .</description></item><item><title>新的尝试</title><link>http://example.org/cn/posts/2023-08-11-new/</link><pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate><guid>http://example.org/cn/posts/2023-08-11-new/</guid><description>这里将是Sandy的笔记本 欢迎光临！</description></item></channel></rss>
+首先,在mywebsite根目录下终端输入： mkdir .github mkdir .github/workflows touch .</description></item><item><title>新的尝试</title><link>http://example.org/cn/posts/2023-08-11-new/</link><pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate><guid>http://example.org/cn/posts/2023-08-11-new/</guid><description>这里将是Sandy的笔记本 欢迎光临！</description></item><item><title>Moments：#1！</title><link>http://example.org/cn/posts/2023-09-11-moments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/cn/posts/2023-09-11-moments/</guid><description>leetcode已经又开始刷起来了，这周就要参加PAT考试了，报的口语班下周就开始上课了。推着自己多做一些不擅长、不愿意做的事。要相信今天那个老师说的，不擅长是因为之前做的少了。还有希望的。
+Hope tomorrow is a bright day。会更强的！</description></item></channel></rss>
