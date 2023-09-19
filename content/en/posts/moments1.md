@@ -8,4 +8,6 @@ slug: road-not-taken
 
 It was an unforgettable evening and I felt I was full of energy again again!
 
-I am determined to keep pushing forward and giving my best. I won't give up, and I'll continue to fight for my dream future!
+I am determined to keep pushing forward and giving my best. I won't give up.
+
+{{<figure src="/images/dog.jpg" title="Just Fighting!" width="350">}}
