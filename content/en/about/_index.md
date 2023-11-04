@@ -49,6 +49,23 @@ type : list-single
 
 &emsp;&emsp;This year, I even proactively signed up for an academic presentation competition at my college and received a second prize. Whenever I think about these changes I have made in my recent years, I am filled with deep emotions.
 
+#### The 4th thing
+&emsp;&emsp;Wooove, it's 2023-11-03 and I finished my oral English homework just now. There suddenly comes some fresh feelings about learning to me and I think it's time to record the 4th thing. Just moments ago, I found my oral English improved a lot when I was doing my homework. Although it seems like a normal thing, it did hurt me too much both mentally and physically a few months ago.
+
+&emsp;&emsp;I realized that my oral English was sooo poor since I began to make preparation for my IELTS English Test. I used to learn English well and easily in my previous learning, but one of the difficulties at that moment was that I didn't have enough time to study systematically and the key problem I conclude now is I didn't want to acknowledge that some parts of my English ability was not good. A damn big ego!
+
+&emsp;&emsp;I still remember I spent half of that month practicing my oral English but I studied in a very inefficiently way. I was too eager to learn it and I couldn't stop being mad to myself. "Why do you speak English like a little kid?" "Why do your accent sound so weird?" "Why can't you say something more about this topic?" I kept blaming myself and regard myself as a loser at that moment. It looks like strange why this little thing influence me a lot, I think maybe I was kind of neurasthenic during that period because I had too much assignments to finish and I slept for little hours per day. It's a dark time and I remember I cried several times because I found I didn't get better and I was sooo angry about my performance. Then here came a good news, I got a ideal score in the test and my self-blame came to an end. But I still knowed that my oral English needs practice, so I signed up for a small-class online course and it teached by a up I followed in bilibili. The class started from 2023-9-21, I think is the true time when I began my oral English learning travel.
+
+&emsp;&emsp;I only have one two-hour class per week and there is going to have 8 weeks. Every week I need to send the teacher two voice homework, sometimes we have a certain topic while most of the time I am supposed to talk what I what to share with him. I am not emphsizing how well my teacher teach, it's worth noticing that it's a slow and casual way to learn something compared with my previous crazy learning experience. I didn't pay full of my attention on this learning, just finishing every class and my homework, not setting a tough goal for myself and just learning step by step. At first, I still made some poor performance, and it's the 6th week now, I suddenly find that I do much better than before. Although I can't speak that fluent and native English, I can express my idea and feeling in a easy status.
+
+&emsp;&emsp;All I hope to tell my future self are as follows: 
+- Don't be anxiey and stop blaming yourself. 
+- Learing everything just like you are a naive kid, do not overestimate or underestimate your ability.
+- Practice makes perfect.
+- Slowly, more quickly.
+
+&emsp;&emsp;I know these are very common experiences, but if I learn from others, it's still other people's gain. Now, they are my personal experiences and harvests. I hope I can keep those principles in my future life.
+
 #### Life is going on...
 
 ---
