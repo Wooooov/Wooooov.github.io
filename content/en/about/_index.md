@@ -41,7 +41,7 @@ type : list-single
 &emsp;&emsp;Now, although I don't regard myself an excellent programmar, I am happily walking on the path of learning. I am really grateful that I wasn't defeated by the previous difficulties.
 
 #### The 3rd thing
-&emsp;&emsp;Since I was young, I had been someone who was really afraid to speak up in class and hesitant to express my own opinions in public. It seemed that I left an impression of being introverted at the beginning, then as a result, I naturally confined myself to my comfort zone and rarely stepped out of it.
+&emsp;&emsp;Since I was young, I had been the person who was really afraid to speak up in class and hesitant to express my own opinions in public. It seemed that I left an impression of being introverted at the beginning, then as a result, I naturally confined myself to my comfort zone and rarely stepped out of it.
 
 &emsp;&emsp;During my first year in my master's degree, there were too many courses in my schedule, most of which required classroom presentations. In addition, my laboratory had weekly meetings where each member should make presentation in turns. It is not an exaggeration to say that the number of presentations I gave in the first semester of my graduate studies exceeded the total number of times I had spoken in public throughout my previous life.
 
