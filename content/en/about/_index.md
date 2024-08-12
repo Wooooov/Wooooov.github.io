@@ -18,65 +18,65 @@ type : list-single
 ---
 
 ## **Education Experience**
-- 2021 - today (Master degree), Hangzhou Normal Unniversity, major in Computer Application Technology
+- 2021 - 2024 (Master degree), Hangzhou Normal Unniversity, major in Computer Application Technology
 - 2016 - 2020 (Bachelor degree), Anhui University of Chinese Medicine, major in Information Management and Information System
 
 ---
 
 ## **Some meaningful events in my life**
 #### The 1st thing
-&emsp;&emsp;In my high school, I was always one of the worst performers in PE class, especially in the running test. During my freshman year of college, I wanted to do something to adjust my state, so I began to run regularly. My initial goal was to run just 4 or 5 laps, but as I continued running, I found more joy in it. By the end of my freshman year, I was able to run over 20 laps. 
+&emsp;&emsp;In high school, I was always one of the weakest performers in PE class, particularly when it came to the running test. However, during my freshman year of college, I decided to make a change and started running regularly. Initially, my goal was modest—just 4 or 5 laps—but as I kept at it, I began to enjoy running more and more. By the end of my freshman year, I was able to run over 20 laps. 
 
-&emsp;&emsp;During the relatively leisurely two years of college, I ran roughly 5 kms every day, sometimes even two times of 5-kms running which in the morning and evening. I have never imagined that I went from being unable to complete an 800-meter running test to being able to run over 10 kms in just two years. 
+&emsp;&emsp;During the relatively relaxed two years of college, I made it a habit to run approximately 5 kilometers every day, sometimes even twice a day, with one run in the morning and another in the evening. I never imagined that I could go from struggling to complete an 800-meter run to comfortably running over 10 kilometers in just two years. 
 
-&emsp;&emsp;This achievement always encourages me that I was capable of more than I thought. I still keep this habit now although the frequency may be lower than before.
+&emsp;&emsp;This achievement has always reminded me that I’m capable of more than I initially believe. I still maintain this habit, even if the frequency is lower than before.
 
 #### The 2nd thing
-&emsp;&emsp;During the application period for my master degree, I decided to take the Programming Ability Test (PAT) in order to make preperation for my desired graduate school. At that time, my programming skills were weak and the knowledge I learned in the basic programming course during my undergraduate studies was mostly theoretical. I only had a superficial understanding of some data structures and algorithm theorys at that time. After studying hard for a period, I took my first offline exam. I still remember on that day, the sound of people around me typing on the keyboard  just presented their proficiency and professionalism while I performed poorly in the exam.
+&emsp;&emsp;During the application period for my master’s degree, I decided to take the Programming Ability Test (PAT) to better prepare for my desired graduate school. At that time, my programming skills were weak, and most of what I had learned in my undergraduate programming courses was largely theoretical. My understanding of data structures and algorithms was superficial at best. After studying intensely for a while, I took my first offline exam. I still vividly remember the sound of people around me typing away confidently, showcasing their proficiency and professionalism, while I struggled through the exam.
 
-&emsp;&emsp;After some time of practice, I registered for this test again. Actually while preparing for this test, I was also extremely busy preparing for the entrance examination for the master's program. With the huge pressure and anxiety, the painful learning process and unsatisfactory results almost crushed me and I once felt that I was a complete loser in programming. I would say I was very afraid of and refused to program in that period.
+&emsp;&emsp;After some practice, I registered for the test again. However, this time I was also extremely busy preparing for the entrance exam for my master’s program. The immense pressure and anxiety, coupled with the grueling learning process and disappointing results, nearly broke me. I often felt like a complete failure in programming, and for a period, I was genuinely afraid of and resistant to coding.
 
-&emsp;&emsp;The turning point came in my first year of graduate school. While organizing my browser bookmarks, I came across the website where I had practiced for the PAT exam a year ago. Suddenly, I had the idea of challenging myself again. I signed up for the latest exam and started preparing. I started from scratch, exploring concepts I didn't understand before. And this time, I found pleasure in programming. Every day of preparation made me a huge sence of fulfillment and satisfaction. The process of programming is like teaching by a teacher who corrected the logic errors of my assignments. It was a truly wonderful feeling for me to organize the structure and logic of a problem.
+&emsp;&emsp;The turning point came in my first year of graduate school. While organizing my browser bookmarks, I stumbled upon the website where I had practiced for the PAT exam a year earlier. On a whim, I decided to challenge myself once more. I signed up for the latest exam and began preparing again. This time, I approached the material from the ground up, delving into concepts I hadn’t fully understood before. To my surprise, I found joy in programming. Each day of preparation brought a deep sense of fulfillment and satisfaction. The process felt like being taught by a mentor, as I worked through and corrected logical errors in my code. It was truly rewarding to structure and solve problems with clarity and precision.
 
-&emsp;&emsp;Now, although I don't regard myself an excellent programmar, I am happily walking on the path of learning. I am really grateful that I wasn't defeated by the previous difficulties.
+&emsp;&emsp;Now, although I don’t consider myself an excellent programmer, I am contentedly progressing on this learning journey. I’m truly grateful that I wasn’t defeated by the earlier challenges.
 
 #### The 3rd thing
-&emsp;&emsp;Since I was young, I had been the person who was really afraid to speak up in class and hesitant to express my own opinions in public. It seemed that I left an impression of being introverted at the beginning, then as a result, I naturally confined myself to my comfort zone and rarely stepped out of it.
+&emsp;&emsp;Since I was young, I had always been the person who was afraid to speak up in class and hesitant to express my opinions in public. This tendency made me seem introverted, and as a result, I naturally confined myself to my comfort zone, rarely stepping out of it.
 
-&emsp;&emsp;During my first year in my master's degree, there were too many courses in my schedule, most of which required classroom presentations. In addition, my laboratory had weekly meetings where each member should make presentation in turns. It is not an exaggeration to say that the number of presentations I gave in the first semester of my graduate studies exceeded the total number of times I had spoken in public throughout my previous life.
+&emsp;&emsp;During my first year of my master’s degree, my schedule was packed with courses, many of which required classroom presentations. Additionally, my lab held weekly meetings where each member had to present in turn. It’s no exaggeration to say that the number of presentations I gave in my first semester of graduate school exceeded the total number of times I had spoken in public throughout my entire life before that.
 
-&emsp;&emsp;At the beginning, I was always so nervous that I couldn't sleep at night before my presentation. However, I gradually discovered that preparing for presentations was a great way to organize my thoughts. During the process of preparing a presentation, some jumbled ideas and the issues that I had overlooked generally became clearer. By the time I found it meaningful to me, I wasn't so afraid of it. Some thinking habits I developed from these presentation experience not only helped me in my studies but also influenced how I handle situations in my daily life. 
+&emsp;&emsp;At first, I was so nervous before each presentation that I couldn’t sleep the night before. However, I gradually discovered that preparing for presentations was an excellent way to organize my thoughts. The process of creating a presentation helped me clarify jumbled ideas and address issues I had previously overlooked. Once I realized how meaningful this was, my fear began to subside. The thinking habits I developed through these presentation experiences not only aided me in my studies but also influenced how I approach situations in my daily life. 
 
-&emsp;&emsp;This year, I even proactively signed up for an academic presentation competition at my college and received a second prize. Whenever I think about these changes I have made in my recent years, I am filled with deep emotions.
+&emsp;&emsp;This year, I even took the initiative to sign up for an academic presentation competition at my college and was awarded second prize. Whenever I reflect on the changes I’ve made in recent years, I am filled with deep emotions.
 
 #### The 4th thing
-&emsp;&emsp;Wooove, it's 2023-11-03 and I finished my oral English homework just now. There suddenly comes some fresh feelings about learning to me and I think it's time to record the 4th thing. Just moments ago, I found my oral English improved a lot when I was doing my homework. Although it seems like a normal thing, it did hurt me too much both mentally and physically a few months ago.
+&emsp;&emsp;Wow, it's November 3, 2023, and I've just finished my oral English homework. I’m suddenly feeling inspired, so I think it’s time to record my fourth reflection. A moment ago, I realized that my oral English has improved significantly while doing my homework. Although this might seem like a small achievement, just a few months ago, it was a source of considerable stress, both mentally and physically.
 
-&emsp;&emsp;I realized that my oral English was sooo poor since I began to make preparation for my IELTS English Test. I used to learn English well and easily in my previous learning, but one of the difficulties at that moment was that I didn't have enough time to study systematically and the key problem I conclude now is I didn't want to acknowledge that some parts of my English ability was not good. A damn big ego!
+&emsp;&emsp;I realized just how poor my oral English was when I began preparing for the IELTS exam. In the past, I had always learned English easily, but during that time, one of the main challenges was that I didn’t have enough time to study systematically. Looking back, I now see that the bigger issue was my reluctance to admit that certain aspects of my English skills needed improvement. A stubborn ego, indeed!
 
-&emsp;&emsp;I still remember I spent half of that month practicing my oral English but I studied in a very inefficiently way. I was too eager to learn it and I couldn't stop being mad to myself. "Why do you speak English like a little kid?" "Why do your accent sound so weird?" "Why can't you say something more about this topic?" I kept blaming myself and regard myself as a loser at that moment. It looks like strange why this little thing influence me a lot, I think maybe I was kind of neurasthenic during that period because I had too much assignments to finish and I slept for little hours per day. It's a dark time and I remember I cried several times because I found I didn't get better and I was sooo angry about my performance. Then here came a good news, I got a ideal score in the test and my self-blame came to an end. But I still knowed that my oral English needs practice, so I signed up for a small-class online course and it teached by a up I followed in bilibili. The class started from 2023-9-21, I think is the true time when I began my oral English learning travel.
+&emsp;&emsp;I still remember spending half of that month practicing my oral English, but I was incredibly inefficient. I was too eager to improve, which only fueled my frustration. I kept asking myself, "Why do you speak English like a child?" "Why does your accent sound so off?" "Why can't you talk more about this topic?" I was constantly blaming myself, convinced I was a failure. It might seem odd that something so small affected me so much, but I think I was experiencing a bit of neurasthenia during that period. With too many assignments to complete and very little sleep, it was a dark time for me. I even cried several times out of frustration because I felt like I wasn’t improving. Then, something good happened—I received an ideal score on the test, and my self-blame finally came to an end. However, I knew my oral English still needed work, so I enrolled in a small online course taught by a content creator I followed on Bilibili. The course began on September 21, 2023, and I consider this the true start of my journey to improving my oral English.
 
-&emsp;&emsp;I only have one two-hour class per week and there is going to have 8 weeks. Every week I need to send the teacher two voice homework, sometimes we have a certain topic while most of the time I am supposed to talk what I what to share with him. I am not emphsizing how well my teacher teach, it's worth noticing that it's a slow and casual way to learn something compared with my previous crazy learning experience. I didn't pay full of my attention on this learning, just finishing every class and my homework, not setting a tough goal for myself and just learning step by step. At first, I still made some poor performance, and it's the 6th week now, I suddenly find that I do much better than before. Although I can't speak that fluent and native English, I can express my idea and feeling in a easy status.
+&emsp;&emsp;I have just one two-hour class per week for eight weeks. Each week, I need to submit two voice recordings as homework—sometimes with a specific topic, but often just sharing whatever I want with my teacher. I’m not focusing on how well my teacher instructs; rather, what stands out is how different this slow, relaxed approach to learning is compared to my previous intense study routines. This time, I didn’t push myself to the limit; instead, I attended each class and completed my homework without setting overly ambitious goals, just taking things step by step. Initially, I still struggled with my performance, but now, in the sixth week, I’ve noticed a significant improvement. While I may not speak fluent or native-like English yet, I can express my thoughts and feelings with much more ease.
 
-&emsp;&emsp;All I hope to tell my future self are as follows: 
+&emsp;&emsp;All I hope to tell myself in the the furture are: 
 - Don't be anxiey and stop blaming yourself. 
 - Learing everything just like you are a naive kid, do not overestimate or underestimate your ability.
 - Practice makes perfect.
-- Slowly, more quickly.
+- Slow is fast.
 
-&emsp;&emsp;I know these are very common experiences, but if I learn from others, it's still other people's gain. Now, they are my personal experiences and harvests. I hope I can keep those principles in my future life.
+&emsp;&emsp;I understand that these are common experiences, but learning from others is one thing—making them your own is another. Now, these are my personal experiences and achievements. I hope to carry these lessons and principles with me into the future.
 
 #### Life is going on...
 
 ---
 
 ## **Some components of me**
-- Since I was young, I have had a great interest in art. I have learned to play the guitar and erhu, and I am also interested in design, such as web design, logo design, charts design and so on. 
-- My biggest hobby is drawing. Although I haven't received professional training in painting, I usually self-study through copying and tutorials. I have tried using pencils, watercolors, and panel painting techniques.
+- Since I was young, I have had a deep interest in art. I’ve learned to play both the guitar and erhu, and I also have a passion for design, including web design, logo design, chart design, and more. 
+- My greatest hobby is drawing. Although I haven’t received formal training in painting, I usually teach myself through copying and tutorials. I’ve experimented with various mediums, including pencil sketches, watercolors, and panel painting techniques.
 
 {{<figure src="/images/sandy.jpg" title="This painting was created by myself using Procreate on iPad" width="300">}}
 
-- I am a dog person and I am extremely grateful to meet my dogs, wishing they can always be by my side.
+- I am a dog person and I am extremely grateful to meet my dogs. I hope they can always be by my side.
 
 {{<figure src="/images/mydog.jpg" title="They are Coco, Tiaotiao, and Guagua (from left to right)." width="300">}}
 
